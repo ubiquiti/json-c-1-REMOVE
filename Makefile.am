@@ -1,7 +1,7 @@
 include Makefile.am.inc
 
 EXTRA_DIST = README.html README-WIN32.html config.h.win32 doc json-c.vcproj
-SUBDIRS = . tests
+SUBDIRS = .
 
 lib_LTLIBRARIES = libjson-c.la 
 if ENABLE_OLDNAME_COMPAT

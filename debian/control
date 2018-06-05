@@ -1,0 +1,14 @@
+Section: contrib/net
+Source: json-c
+Priority: extra
+Maintainer: UBNT Package Maintainers <maintainers@ubnt.com>
+Build-Depends: debhelper (>= 5), python-dev (>= 2.7.3), python-pycparser
+Standards-Version: 3.7.2
+
+Package: json-c
+Architecture: any
+Description: JSON C Library
+ Implements a reference counting object model that allows you
+ to easily construct JSON objects in C, output them as JSON
+ formatted strings and parse JSON formatted strings back into
+ the C representation of JSON objects. It aims to conform to RFC 7159.
